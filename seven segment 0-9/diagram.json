@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "M Dimas",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-7segment",
+      "id": "sevseg1",
+      "top": -206.22,
+      "left": 91.48,
+      "attrs": { "common": "cathode", "color": "#00ff00" }
+    }
+  ],
+  "connections": [
+    [ "sevseg1:A", "uno:1", "#8f4814", [ "v-18.36", "h86.4" ] ],
+    [ "sevseg1:B", "uno:2", "red", [ "v-8.76", "h67.2" ] ],
+    [ "sevseg1:C", "uno:3", "orange", [ "v19.2", "h76.8" ] ],
+    [ "sevseg1:COM.1", "uno:GND.1", "black", [ "h0" ] ],
+    [ "sevseg1:D", "uno:4", "gold", [ "v28.8", "h115.2" ] ],
+    [ "sevseg1:E", "uno:5", "green", [ "v38.4", "h105.6" ] ],
+    [ "sevseg1:F", "uno:6", "blue", [ "v-18.36", "h-28.8", "v144", "h124.8" ] ],
+    [ "sevseg1:G", "uno:7", "violet", [ "v-8.76", "h-28.8", "v153.6", "h124.8" ] ],
+    [ "sevseg1:COM.2", "uno:GND.1", "black", [ "v-27.96", "h-57.6", "v220.8", "h57.9" ] ]
+  ],
+  "dependencies": {}
+}
