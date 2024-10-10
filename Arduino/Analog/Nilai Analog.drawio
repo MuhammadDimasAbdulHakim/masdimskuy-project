@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="t12QBO-E9kiNlwSFNAXa">
+    <mxGraphModel dx="2100" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-2" value="Serial begin (9600)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="328" width="183" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-3" value="Loop" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="427" width="94" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-4" value="Read analog (pinpot)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="241" y="525" width="197" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-5" value="Print nilaipot to Serial" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="624" width="219" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-6" value="Delay 500 ms" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="334" y="722" width="154" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" target="nG-Q4iYiYNy8A5SLK1Ox-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="411.98039215686276" y="278" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="nG-Q4iYiYNy8A5SLK1Ox-2" target="nG-Q4iYiYNy8A5SLK1Ox-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="nG-Q4iYiYNy8A5SLK1Ox-3" target="nG-Q4iYiYNy8A5SLK1Ox-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="nG-Q4iYiYNy8A5SLK1Ox-4" target="nG-Q4iYiYNy8A5SLK1Ox-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.27;entryY=0;rounded=0;" edge="1" parent="1" source="nG-Q4iYiYNy8A5SLK1Ox-5" target="nG-Q4iYiYNy8A5SLK1Ox-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0;entryX=0.88;entryY=1;rounded=0;" edge="1" parent="1" source="nG-Q4iYiYNy8A5SLK1Ox-6" target="nG-Q4iYiYNy8A5SLK1Ox-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="697" />
+              <mxPoint x="484" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nG-Q4iYiYNy8A5SLK1Ox-15" value="Setup" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.5" y="230" width="118.5" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
