@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="tIDPwRDp-YHo5dl7tual">
+    <mxGraphModel dx="1313" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-44" value="Inisialisasi Pin dan Tipe Sensor DHT22" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="118" width="225" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-45" value="Inisialisasi Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="234" width="238" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-46" value="Inisialisasi Sensor DHT22" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="317" y="333" width="235" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-47" value="Inisialisasi LCD I2C" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="338" y="431" width="192" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-48" value="Loop Setiap 2 Detik" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="334" y="530" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-49" value="Baca Data dari Sensor DHT" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="253" y="628" width="205" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-50" value="Tampilkan Data ke Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="906" width="238" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-51" value="Tampilkan Data ke LCD I2C" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="914" width="252" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-52" value="Tampilkan Pesan Error Gagal Membaca Sensor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="906" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" target="tthlWw5C-QgJVAfaRQeu-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="433.52941176470586" y="67.99999999999989" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-44" target="tthlWw5C-QgJVAfaRQeu-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-45" target="tthlWw5C-QgJVAfaRQeu-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-46" target="tthlWw5C-QgJVAfaRQeu-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-47" target="tthlWw5C-QgJVAfaRQeu-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-48" target="tthlWw5C-QgJVAfaRQeu-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-59" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.47;entryY=-0.01;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-49" target="tthlWw5C-QgJVAfaRQeu-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-60" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.39;entryY=0.01;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-49" target="tthlWw5C-QgJVAfaRQeu-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-61" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.24;entryY=-0.01;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-49" target="tthlWw5C-QgJVAfaRQeu-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="599" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=-0.01;entryX=0;entryY=0.97;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-50" target="tthlWw5C-QgJVAfaRQeu-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="869" />
+              <mxPoint x="218" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.01;entryX=0.8;entryY=1;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-51" target="tthlWw5C-QgJVAfaRQeu-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="557" y="869" />
+              <mxPoint x="557" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=-0.01;entryX=1;entryY=0.83;rounded=0;" edge="1" parent="1" source="tthlWw5C-QgJVAfaRQeu-52" target="tthlWw5C-QgJVAfaRQeu-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="743" y="869" />
+              <mxPoint x="743" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tthlWw5C-QgJVAfaRQeu-65" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
