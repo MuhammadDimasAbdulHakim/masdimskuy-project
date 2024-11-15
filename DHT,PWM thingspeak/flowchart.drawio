@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="6uHBdeOHLWCmVrJXcTNK">
+    <mxGraphModel dx="1750" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-2" value="Hubungkan ke WiFi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="141" width="196" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-3" value="Loop" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="551" y="262" width="94" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-4" value="Nilai PWM dari Potensiometer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="382" width="165" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-5" value="Baca Suhu dari DHT22" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="346" y="391" width="217" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-6" value="Baca Kelembapan dari DHT22" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="633" y="382" width="219" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-7" value="Periksa dan Tampilkan Nilai PWM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="521" width="256" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-8" value="Periksa dan Tampilkan Suhu" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="326" y="530" width="257" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-9" value="Periksa dan Tampilkan Kelembapan" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="633" y="521" width="218" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-10" value="SendToThingSpeak" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="358" y="659" width="192" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-11" value="Data Berhasil Dikirim" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="219" y="798" width="211" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-12" value="Gagal Mengirim Data" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="641" y="798" width="208" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-13" value="Tunggu 5 Detik" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="518" y="896" width="167" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-14" value="Inisialisasi DHT22 dan WiFi" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" target="UMFaxZWtS9eFkiPG3K3e-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="598" y="68" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-15" value="Berhasil Terhubung" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-2" target="UMFaxZWtS9eFkiPG3K3e-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-16" value="Baca Nilai Potensiometer" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.63;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-3" target="UMFaxZWtS9eFkiPG3K3e-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-17" value="Baca Suhu dan Kelembapan" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-3" target="UMFaxZWtS9eFkiPG3K3e-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-18" value="Baca Suhu dan Kelembapan" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-3" target="UMFaxZWtS9eFkiPG3K3e-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="742" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-19" value="Nilai PWM" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-4" target="UMFaxZWtS9eFkiPG3K3e-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-20" value="Suhu" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-5" target="UMFaxZWtS9eFkiPG3K3e-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-21" value="Kelembapan" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-6" target="UMFaxZWtS9eFkiPG3K3e-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-22" value="Kirim Data ke ThingSpeak" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.11;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-7" target="UMFaxZWtS9eFkiPG3K3e-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-23" value="Kirim Data ke ThingSpeak" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-8" target="UMFaxZWtS9eFkiPG3K3e-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-24" value="Kirim Data ke ThingSpeak" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.09;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-9" target="UMFaxZWtS9eFkiPG3K3e-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="742" y="623" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-25" value="HTTP Request ke ThingSpeak" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-10" target="UMFaxZWtS9eFkiPG3K3e-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="753" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-26" value="HTTP Error" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.98;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-10" target="UMFaxZWtS9eFkiPG3K3e-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="753" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.2;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-11" target="UMFaxZWtS9eFkiPG3K3e-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="871" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.92;entryY=0;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-12" target="UMFaxZWtS9eFkiPG3K3e-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="871" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.21;entryX=1;entryY=0.7;rounded=0;" edge="1" parent="1" source="UMFaxZWtS9eFkiPG3K3e-13" target="UMFaxZWtS9eFkiPG3K3e-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="990" />
+              <mxPoint x="980" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMFaxZWtS9eFkiPG3K3e-30" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
